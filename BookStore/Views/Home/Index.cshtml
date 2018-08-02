@@ -1,0 +1,46 @@
+﻿
+@model BookStore.Models.ViewModels.HomeViewModel
+@{
+    ViewBag.Title = "Home Page";
+}
+<h2>@BookStore.Resources.Languages.Resource.Search</h2>
+@using (Html.BeginForm(MVC.Home.Actions.AvailableBooks(), FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+{
+    <hr />
+    <div class="row">
+
+        <br />
+        <div class="col-md-4">
+            @Html.LabelFor(b => b.BookName, new { @id = "lblfor" })
+            @Html.TextBoxFor(b => b.BookName, "", new { @class = "form-control", @id = "home-index-text-box-id" })
+        </div>
+        <div class="col-md-4">
+            @Html.LabelFor(b => b.SelectedAuthorId, new { @id = "lblfor" })
+            @Html.DropDownListFor(b => b.SelectedAuthorId, new SelectList(ViewBag.Authors, "Id", "FullName"), new { @class = "form-control", @id = "home-index-drop-down-list-id" })
+        </div>
+        <div class="col-md-4">
+            <br />
+            <div class="checkbox checkbox-primary">
+                @Html.CheckBoxFor(model => model.IsInStock)
+                @Html.LabelFor(model => model.IsInStock, new { @id = "home-index-check-box-id" })
+            </div>
+        </div>
+    </div>
+    <br />
+    <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-4"></div>
+        <div class="col-md-4">
+            <button class="btn btn-default" id="home-index-clear-fields-button-id">@BookStore.Resources.Languages.Resource.Clear</button>
+            <button class="btn btn-default" id="home-index-search-button-id"><span class="glyphicon glyphicon-search">&nbsp;</span>@BookStore.Resources.Languages.Resource.Search</button>
+        </div>
+    </div>
+}
+<div id="js-search-result">
+</div>
+<div style="position:fixed; bottom:0px;">
+    <img src="~/Content/Images/homeIndexImage.png" width="1100" height="140" />
+</div>
+@section Scripts{
+    <script src="~/Scripts/scripts.js"></script>
+}

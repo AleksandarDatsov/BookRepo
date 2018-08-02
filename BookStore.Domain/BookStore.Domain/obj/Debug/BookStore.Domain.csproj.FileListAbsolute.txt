@@ -1,0 +1,12 @@
+C:\Users\aleksandar.datsov\source\repos\Git Sandbox\BookStoreProject.Aleksandar\BookStore\BookStore.Domain\BookStore.Domain\bin\Debug\BookStore.Domain.dll
+C:\Users\aleksandar.datsov\source\repos\Git Sandbox\BookStoreProject.Aleksandar\BookStore\BookStore.Domain\BookStore.Domain\bin\Debug\BookStore.Domain.pdb
+C:\Users\aleksandar.datsov\source\repos\Git Sandbox\BookStoreProject.Aleksandar\BookStore\BookStore.Domain\BookStore.Domain\obj\Debug\BookStore.Domain.csproj.CoreCompileInputs.cache
+C:\Users\aleksandar.datsov\source\repos\Git Sandbox\BookStoreProject.Aleksandar\BookStore\BookStore.Domain\BookStore.Domain\obj\Debug\BookStore.Domain.dll
+C:\Users\aleksandar.datsov\source\repos\Git Sandbox\BookStoreProject.Aleksandar\BookStore\BookStore.Domain\BookStore.Domain\obj\Debug\BookStore.Domain.pdb
+C:\Users\aleksandar.datsov\source\repos\Git Sandbox\BookStoreProject.Aleksandar\BookStore\BookStore.Domain\BookStore.Domain\obj\Debug\BookStore.Domain.csprojResolveAssemblyReference.cache
+C:\Users\aleksandar.datsov\Desktop\Folder\BookStore\BookStore.Domain\BookStore.Domain\bin\Debug\BookStore.Domain.dll
+C:\Users\aleksandar.datsov\Desktop\Folder\BookStore\BookStore.Domain\BookStore.Domain\bin\Debug\BookStore.Domain.pdb
+C:\Users\aleksandar.datsov\Desktop\Folder\BookStore\BookStore.Domain\BookStore.Domain\obj\Debug\BookStore.Domain.csproj.CoreCompileInputs.cache
+C:\Users\aleksandar.datsov\Desktop\Folder\BookStore\BookStore.Domain\BookStore.Domain\obj\Debug\BookStore.Domain.dll
+C:\Users\aleksandar.datsov\Desktop\Folder\BookStore\BookStore.Domain\BookStore.Domain\obj\Debug\BookStore.Domain.pdb
+C:\Users\aleksandar.datsov\Desktop\Folder\BookStore\BookStore.Domain\BookStore.Domain\obj\Debug\BookStore.Domain.csprojAssemblyReference.cache

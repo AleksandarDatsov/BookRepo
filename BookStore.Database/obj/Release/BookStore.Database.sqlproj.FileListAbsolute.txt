@@ -1,0 +1,9 @@
+C:\Users\aleksandar.datsov\Source\Repos\Git Sandbox\BookStoreProject.Aleksandar\BookStore\BookStore.Database\bin\Release\BookStore.Database.dacpac
+C:\Users\aleksandar.datsov\Source\Repos\Git Sandbox\BookStoreProject.Aleksandar\BookStore\BookStore.Database\bin\Release\BookStore.Database.dll
+C:\Users\aleksandar.datsov\Source\Repos\Git Sandbox\BookStoreProject.Aleksandar\BookStore\BookStore.Database\bin\Release\BookStore.Database.pdb
+C:\Users\aleksandar.datsov\Source\Repos\Git Sandbox\BookStoreProject.Aleksandar\BookStore\BookStore.Database\obj\Release\Model.xml
+C:\Users\aleksandar.datsov\Source\Repos\Git Sandbox\BookStoreProject.Aleksandar\BookStore\BookStore.Database\obj\Release\refactor.xml
+C:\Users\aleksandar.datsov\Source\Repos\Git Sandbox\BookStoreProject.Aleksandar\BookStore\BookStore.Database\obj\Release\postdeploy.sql
+C:\Users\aleksandar.datsov\Source\Repos\Git Sandbox\BookStoreProject.Aleksandar\BookStore\BookStore.Database\obj\Release\predeploy.sql
+C:\Users\aleksandar.datsov\Source\Repos\Git Sandbox\BookStoreProject.Aleksandar\BookStore\BookStore.Database\obj\Release\BookStore.Database.dll
+C:\Users\aleksandar.datsov\Source\Repos\Git Sandbox\BookStoreProject.Aleksandar\BookStore\BookStore.Database\obj\Release\BookStore.Database.pdb

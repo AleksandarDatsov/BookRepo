@@ -1,0 +1,24 @@
+C:\Users\aleksandar.datsov\source\repos\Git Sandbox\BookStoreProject.Aleksandar\BookStore\Resources\bin\Debug\BookStore.Resources.dll
+C:\Users\aleksandar.datsov\source\repos\Git Sandbox\BookStoreProject.Aleksandar\BookStore\Resources\bin\Debug\BookStore.Resources.pdb
+C:\Users\aleksandar.datsov\source\repos\Git Sandbox\BookStoreProject.Aleksandar\BookStore\Resources\bin\Debug\Bg\BookStore.Resources.resources.dll
+C:\Users\aleksandar.datsov\source\repos\Git Sandbox\BookStoreProject.Aleksandar\BookStore\Resources\obj\Debug\BookStore.Resources.ErrorMsg.resources
+C:\Users\aleksandar.datsov\source\repos\Git Sandbox\BookStoreProject.Aleksandar\BookStore\Resources\obj\Debug\BookStore.Resources.Languages.Resource.resources
+C:\Users\aleksandar.datsov\source\repos\Git Sandbox\BookStoreProject.Aleksandar\BookStore\Resources\obj\Debug\BookStore.Resources.ErrorMsg.Bg.resources
+C:\Users\aleksandar.datsov\source\repos\Git Sandbox\BookStoreProject.Aleksandar\BookStore\Resources\obj\Debug\BookStore.Resources.Languages.Resource.Bg.resources
+C:\Users\aleksandar.datsov\source\repos\Git Sandbox\BookStoreProject.Aleksandar\BookStore\Resources\obj\Debug\BookStore.Resources.csproj.GenerateResource.Cache
+C:\Users\aleksandar.datsov\source\repos\Git Sandbox\BookStoreProject.Aleksandar\BookStore\Resources\obj\Debug\BookStore.Resources.csproj.CoreCompileInputs.cache
+C:\Users\aleksandar.datsov\source\repos\Git Sandbox\BookStoreProject.Aleksandar\BookStore\Resources\obj\Debug\Bg\BookStore.Resources.resources.dll
+C:\Users\aleksandar.datsov\source\repos\Git Sandbox\BookStoreProject.Aleksandar\BookStore\Resources\obj\Debug\BookStore.Resources.dll
+C:\Users\aleksandar.datsov\source\repos\Git Sandbox\BookStoreProject.Aleksandar\BookStore\Resources\obj\Debug\BookStore.Resources.pdb
+C:\Users\aleksandar.datsov\Desktop\Folder\BookStore\Resources\bin\Debug\BookStore.Resources.dll
+C:\Users\aleksandar.datsov\Desktop\Folder\BookStore\Resources\bin\Debug\BookStore.Resources.pdb
+C:\Users\aleksandar.datsov\Desktop\Folder\BookStore\Resources\bin\Debug\Bg\BookStore.Resources.resources.dll
+C:\Users\aleksandar.datsov\Desktop\Folder\BookStore\Resources\obj\Debug\BookStore.Resources.ErrorMsg.resources
+C:\Users\aleksandar.datsov\Desktop\Folder\BookStore\Resources\obj\Debug\BookStore.Resources.Languages.Resource.resources
+C:\Users\aleksandar.datsov\Desktop\Folder\BookStore\Resources\obj\Debug\BookStore.Resources.ErrorMsg.Bg.resources
+C:\Users\aleksandar.datsov\Desktop\Folder\BookStore\Resources\obj\Debug\BookStore.Resources.Languages.Resource.Bg.resources
+C:\Users\aleksandar.datsov\Desktop\Folder\BookStore\Resources\obj\Debug\BookStore.Resources.csproj.GenerateResource.Cache
+C:\Users\aleksandar.datsov\Desktop\Folder\BookStore\Resources\obj\Debug\BookStore.Resources.csproj.CoreCompileInputs.cache
+C:\Users\aleksandar.datsov\Desktop\Folder\BookStore\Resources\obj\Debug\Bg\BookStore.Resources.resources.dll
+C:\Users\aleksandar.datsov\Desktop\Folder\BookStore\Resources\obj\Debug\BookStore.Resources.dll
+C:\Users\aleksandar.datsov\Desktop\Folder\BookStore\Resources\obj\Debug\BookStore.Resources.pdb

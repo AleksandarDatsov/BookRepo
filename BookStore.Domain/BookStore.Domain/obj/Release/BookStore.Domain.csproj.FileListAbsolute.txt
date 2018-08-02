@@ -1,0 +1,5 @@
+C:\Users\aleksandar.datsov\Source\Repos\Git Sandbox\BookStoreProject.Aleksandar\BookStore\BookStore.Domain\BookStore.Domain\bin\Release\BookStore.Domain.dll
+C:\Users\aleksandar.datsov\Source\Repos\Git Sandbox\BookStoreProject.Aleksandar\BookStore\BookStore.Domain\BookStore.Domain\bin\Release\BookStore.Domain.pdb
+C:\Users\aleksandar.datsov\Source\Repos\Git Sandbox\BookStoreProject.Aleksandar\BookStore\BookStore.Domain\BookStore.Domain\obj\Release\BookStore.Domain.csproj.CoreCompileInputs.cache
+C:\Users\aleksandar.datsov\Source\Repos\Git Sandbox\BookStoreProject.Aleksandar\BookStore\BookStore.Domain\BookStore.Domain\obj\Release\BookStore.Domain.dll
+C:\Users\aleksandar.datsov\Source\Repos\Git Sandbox\BookStoreProject.Aleksandar\BookStore\BookStore.Domain\BookStore.Domain\obj\Release\BookStore.Domain.pdb

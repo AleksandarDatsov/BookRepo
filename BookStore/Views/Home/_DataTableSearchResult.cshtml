@@ -1,0 +1,76 @@
+﻿@model BookStore.Models.ViewModels.SearchResultViewModel
+
+<div id="myDivId">
+    <table id="home-search-table-id" class="display">
+        <thead>
+            <tr>
+                <th width="50%">@BookStore.Resources.Languages.Resource.BookName</th>
+                <th width="25%">@BookStore.Resources.Languages.Resource.ReleaseYear</th>
+                <th width="25%">@BookStore.Resources.Languages.Resource.IsInStock</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var book in Model.Books)
+            {
+                <tr>
+                    <td class="nr">@book.BookName</td>
+                    <td>@book.ReleaseYear</td>
+                    <td>
+                        @if (@book.IsInStock)
+                        {
+                            @BookStore.Resources.Languages.Resource.Available
+                        }
+                        else
+                        {
+                            @BookStore.Resources.Languages.Resource.NotAvailable
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<link rel="stylesheet" href="http://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="http://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+<script>
+        var english = {
+            "sLengthMenu": "Show _MENU_ entries",
+            "sZeroRecords": "Nothing found - sorry",
+            "sInfo": "Showing _START_ to _END_ of _TOTAL_ records",
+            "sInfoEmpty": "Showing 0 to 0 of 0 records",
+            "sInfoFiltered": "(filtered from _MAX_ total records)"
+        };
+
+        var bulgarian = {
+            "sProcessing": "Обработка на резултатите...",
+            "sLengthMenu": "Показване на _MENU_ резултата",
+            "sZeroRecords": "Няма намерени резултати",
+            "sInfo": "Показване на резултати от _START_ до _END_ от общо _TOTAL_",
+            "sInfoEmpty": "Показване на резултати от 0 до 0 от общо 0",
+            "sInfoFiltered": "(филтрирани от общо _MAX_ резултата)",
+            "sInfoPostFix": "",
+            "sUrl": ""
+        };
+
+        var dtable = $('#home-search-table-id').dataTable({
+            "searching": false,
+            "ordering": false,
+            "lengthMenu": [1, 2, 3],
+            "pageLength": 3,
+            "cache": false
+        });
+
+        $('#bgLanguage').click(function () {
+                 dtable.fnDestroy();
+                 dtable = null;
+                 dtable = $('#home-search-table-id').dataTable({ "oLanguage": bulgarian, "cache": false });
+             });
+
+        $('#engLanguage').click(function () {
+                 dtable.fnDestroy();
+                 dtable = null;
+                 dtable = $('#home-search-table-id').dataTable({ "oLanguage": english, "cache": false });
+             });
+</script>

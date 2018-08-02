@@ -1,0 +1,66 @@
+﻿@model BookStore.Models.ViewModels.BookViewModel
+@{
+    ViewBag.Title = "CreateBook";
+}
+@if (ViewBag.Message != null)
+{
+    <span>@ViewBag.Message</span>
+}
+<h3>@BookStore.Resources.Languages.Resource.AddBook</h3>
+@using (Html.BeginForm(MVC.Books.Actions.Create(), FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+{
+    <hr />
+    <div class="row">
+        <div class="col-md-6">
+            @Html.LabelFor(b => b.BookName, new { @id = "lblfor" })
+            @Html.TextBoxFor(b => b.BookName, new { @class = "form-control", @id = "books-create-textbox-bookname" })
+            @Html.ValidationMessageFor(b => b.BookName, "", new { @class = "text-danger" })
+        </div>
+        <div class="col-md-6">
+            <br />
+            <div class="checkbox checkbox-primary" , id="books-create-is-in-stock-checkbox-id">
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                @Html.CheckBoxFor(b => b.IsInStock)
+                @Html.LabelFor(b => b.IsInStock, new { @id = "home-index-check-box-id" })
+            </div>
+        </div>
+    </div>
+    <br />
+    <div class="row">
+        <div class="col-md-6">
+            <div class="dropdown">
+                @Html.LabelFor(b => b.AuthorId, new { @id = "lblfor" })
+                @Html.DropDownListFor(a => a.AuthorId, new SelectList(ViewBag.Authors, "Id", "FullName"), new { @class = "form-control", @id = "books-create-textbox-dropdownlist" })
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div id="books-create-numbers-in-stock-div-id">
+                @Html.LabelFor(b => b.NumbersInStock, new { @id = "lblfor" })
+                @Html.TextBoxFor(b => b.NumbersInStock, new { @type = "number", @class = "form-control",@min=1, @id = "books-create-textbox-numbers-in-stock-id" })
+                @Html.ValidationMessageFor(b => b.NumbersInStock, "", new { @class = "text-danger" })
+            </div>
+        </div>
+    </div>
+    <br />
+    <div class="row">
+        <div class="col-md-6">
+            @Html.LabelFor(b => b.ReleaseYear, new { @id = "lblfor" })
+            @Html.TextBoxFor(b => b.ReleaseYear, new { @class = "form-control", @id = "books-create-date-picker-id" })
+            @Html.ValidationMessageFor(b => b.ReleaseYear, "", new { @class = "text-danger" })
+        </div>
+        <div class="col-md-6">
+            <br />
+            @Html.AntiForgeryToken()
+            <button type="submit" class="btn btn-primary" id="buttonSize" value="Send" style="width:110px; font-size:18px">@BookStore.Resources.Languages.Resource.Add  &nbsp;&nbsp;<span class="glyphicon glyphicon-book"></span></button>
+        </div>
+        <div>
+            &nbsp;&nbsp;&nbsp;
+            <img src="~/Content/Images/addBook.jpg" style="width:100%; height:380px; margin-top:20px" />
+        </div>
+    </div>
+}
+<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+@section scripts
+{
+    <script src="~/Scripts/scripts.js"></script>
+}

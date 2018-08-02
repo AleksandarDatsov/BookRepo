@@ -1,0 +1,27 @@
+C:\Users\aleksandar.datsov\source\repos\Git Sandbox\BookStoreProject.Aleksandar\BookStore\BookStore.Infrastructure\bin\Debug\BookStore.Infrastructure.dll.config
+C:\Users\aleksandar.datsov\source\repos\Git Sandbox\BookStoreProject.Aleksandar\BookStore\BookStore.Infrastructure\bin\Debug\BookStore.Infrastructure.dll
+C:\Users\aleksandar.datsov\source\repos\Git Sandbox\BookStoreProject.Aleksandar\BookStore\BookStore.Infrastructure\bin\Debug\BookStore.Infrastructure.pdb
+C:\Users\aleksandar.datsov\source\repos\Git Sandbox\BookStoreProject.Aleksandar\BookStore\BookStore.Infrastructure\bin\Debug\BookStore.Domain.dll
+C:\Users\aleksandar.datsov\source\repos\Git Sandbox\BookStoreProject.Aleksandar\BookStore\BookStore.Infrastructure\bin\Debug\EntityFramework.dll
+C:\Users\aleksandar.datsov\source\repos\Git Sandbox\BookStoreProject.Aleksandar\BookStore\BookStore.Infrastructure\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\aleksandar.datsov\source\repos\Git Sandbox\BookStoreProject.Aleksandar\BookStore\BookStore.Infrastructure\bin\Debug\BookStore.Domain.pdb
+C:\Users\aleksandar.datsov\source\repos\Git Sandbox\BookStoreProject.Aleksandar\BookStore\BookStore.Infrastructure\bin\Debug\EntityFramework.xml
+C:\Users\aleksandar.datsov\source\repos\Git Sandbox\BookStoreProject.Aleksandar\BookStore\BookStore.Infrastructure\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\aleksandar.datsov\source\repos\Git Sandbox\BookStoreProject.Aleksandar\BookStore\BookStore.Infrastructure\obj\Debug\BookStore.Infrastructure.csprojResolveAssemblyReference.cache
+C:\Users\aleksandar.datsov\source\repos\Git Sandbox\BookStoreProject.Aleksandar\BookStore\BookStore.Infrastructure\obj\Debug\BookStore.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\aleksandar.datsov\source\repos\Git Sandbox\BookStoreProject.Aleksandar\BookStore\BookStore.Infrastructure\obj\Debug\BookStore.Infrastructure.dll
+C:\Users\aleksandar.datsov\source\repos\Git Sandbox\BookStoreProject.Aleksandar\BookStore\BookStore.Infrastructure\obj\Debug\BookStore.Infrastructure.pdb
+C:\Users\aleksandar.datsov\Desktop\Folder\BookStore\BookStore.Infrastructure\bin\Debug\BookStore.Infrastructure.dll.config
+C:\Users\aleksandar.datsov\Desktop\Folder\BookStore\BookStore.Infrastructure\bin\Debug\BookStore.Infrastructure.dll
+C:\Users\aleksandar.datsov\Desktop\Folder\BookStore\BookStore.Infrastructure\bin\Debug\BookStore.Infrastructure.pdb
+C:\Users\aleksandar.datsov\Desktop\Folder\BookStore\BookStore.Infrastructure\bin\Debug\BookStore.Domain.dll
+C:\Users\aleksandar.datsov\Desktop\Folder\BookStore\BookStore.Infrastructure\bin\Debug\EntityFramework.dll
+C:\Users\aleksandar.datsov\Desktop\Folder\BookStore\BookStore.Infrastructure\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\aleksandar.datsov\Desktop\Folder\BookStore\BookStore.Infrastructure\bin\Debug\BookStore.Domain.pdb
+C:\Users\aleksandar.datsov\Desktop\Folder\BookStore\BookStore.Infrastructure\bin\Debug\EntityFramework.xml
+C:\Users\aleksandar.datsov\Desktop\Folder\BookStore\BookStore.Infrastructure\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\aleksandar.datsov\Desktop\Folder\BookStore\BookStore.Infrastructure\obj\Debug\BookStore.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\aleksandar.datsov\Desktop\Folder\BookStore\BookStore.Infrastructure\obj\Debug\BookStore.Infrastructure.dll
+C:\Users\aleksandar.datsov\Desktop\Folder\BookStore\BookStore.Infrastructure\obj\Debug\BookStore.Infrastructure.pdb
+C:\Users\aleksandar.datsov\Desktop\Folder\BookStore\BookStore.Infrastructure\obj\Debug\BookStore.Infrastructure.csproj.CopyComplete
+C:\Users\aleksandar.datsov\Desktop\Folder\BookStore\BookStore.Infrastructure\obj\Debug\BookStore.Infrastructure.csprojAssemblyReference.cache

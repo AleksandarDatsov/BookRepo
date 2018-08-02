@@ -1,0 +1,164 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.field-validation-error {
+    color: red;
+}
+
+.input-validation-error {
+    border: 2px solid;
+}
+
+html, body {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.divider {
+    width: 50px;
+    height: auto;
+    display: inline-block;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+#testLabel {
+    font-size: 22px;
+}
+
+#buttonSize,
+#home-index-search-button-id,
+#home-index-clear-fields-button-id,
+#home-index-clear-fields-button-id,
+#home-index-search-button-id {
+    height: 40px;
+    width: 140px;
+    font-size: 16px;
+}
+
+#lblfor,
+#books-create-textbox-bookname,
+#books-create-textbox-numbers-in-stock-id,
+#books-create-date-picker-id,
+#books-create-textbox-dropdownlist,
+#home-index-drop-down-list-id,
+#home-index-text-box-id {
+    font-size: 17px
+}
+
+#home-index-check-box-id {
+    font-size: 21px
+}
+
+.checkbox {
+    padding-left: 20px;
+}
+
+.checkbox label {
+    display: inline-block;
+    position: relative;
+    padding-left: 3px;
+}
+
+.checkbox label::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 0;
+    margin-left: -40px;
+    border: 3px solid #cccccc;
+    border-radius: 3px;
+    background-color: #fff;
+    transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+}
+
+.checkbox label::after {
+    display: inline-block;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 0;
+    top: 0;
+    margin-left: -33px;
+    padding-left: 0;
+    padding-top: 0;
+    font-size: 20px;
+    color: #555555;
+}
+
+.checkbox input[type="checkbox"] {
+    opacity: 0;
+}
+
+.checkbox input[type="checkbox"]:focus + label::before,
+.checkbox input[type="checkbox"]:focus + input[type="hidden"] + label::before {
+    outline: thin dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+}
+
+.checkbox input[type="checkbox"]:checked + label::after,
+.checkbox input[type="checkbox"]:checked + input[type="hidden"] + label::after {
+    font-family: 'Glyphicons Halflings';
+    content: "\e013";
+}
+
+.checkbox input[type="checkbox"]:disabled + label,
+.checkbox input[type="checkbox"]:disabled + input[type="hidden"] + label {
+    opacity: 0.65;
+}
+
+.checkbox input[type="checkbox"]:disabled + label::before,
+.checkbox input[type="checkbox"]:disabled + input[type="hidden"] + label::before {
+    background-color: #eeeeee;
+    cursor: not-allowed;
+}
+
+.checkbox.checkbox-inline {
+    margin-top: 0;
+}
+
+.checkbox-primary input[type="checkbox"]:checked + label::before,
+.checkbox-primary input[type="checkbox"]:checked + input[type="hidden"] + label::before {
+    background-color: #428bca;
+    border-color: #428bca;
+}
+
+.checkbox-primary input[type="checkbox"]:checked + label::after,
+.checkbox-primary input[type="checkbox"]:checked + input[type="hidden"] + label::after {
+    color: #fff;
+}
+
+.modal-backdrop {
+    z-index: 1;
+}

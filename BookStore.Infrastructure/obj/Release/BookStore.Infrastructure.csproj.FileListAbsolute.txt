@@ -1,0 +1,13 @@
+C:\Users\aleksandar.datsov\Source\Repos\Git Sandbox\BookStoreProject.Aleksandar\BookStore\BookStore.Infrastructure\bin\Release\BookStore.Infrastructure.dll.config
+C:\Users\aleksandar.datsov\Source\Repos\Git Sandbox\BookStoreProject.Aleksandar\BookStore\BookStore.Infrastructure\bin\Release\BookStore.Infrastructure.dll
+C:\Users\aleksandar.datsov\Source\Repos\Git Sandbox\BookStoreProject.Aleksandar\BookStore\BookStore.Infrastructure\bin\Release\BookStore.Infrastructure.pdb
+C:\Users\aleksandar.datsov\Source\Repos\Git Sandbox\BookStoreProject.Aleksandar\BookStore\BookStore.Infrastructure\bin\Release\BookStore.Domain.dll
+C:\Users\aleksandar.datsov\Source\Repos\Git Sandbox\BookStoreProject.Aleksandar\BookStore\BookStore.Infrastructure\bin\Release\EntityFramework.dll
+C:\Users\aleksandar.datsov\Source\Repos\Git Sandbox\BookStoreProject.Aleksandar\BookStore\BookStore.Infrastructure\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\aleksandar.datsov\Source\Repos\Git Sandbox\BookStoreProject.Aleksandar\BookStore\BookStore.Infrastructure\bin\Release\BookStore.Domain.pdb
+C:\Users\aleksandar.datsov\Source\Repos\Git Sandbox\BookStoreProject.Aleksandar\BookStore\BookStore.Infrastructure\bin\Release\EntityFramework.xml
+C:\Users\aleksandar.datsov\Source\Repos\Git Sandbox\BookStoreProject.Aleksandar\BookStore\BookStore.Infrastructure\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\aleksandar.datsov\Source\Repos\Git Sandbox\BookStoreProject.Aleksandar\BookStore\BookStore.Infrastructure\obj\Release\BookStore.Infrastructure.csprojResolveAssemblyReference.cache
+C:\Users\aleksandar.datsov\Source\Repos\Git Sandbox\BookStoreProject.Aleksandar\BookStore\BookStore.Infrastructure\obj\Release\BookStore.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\aleksandar.datsov\Source\Repos\Git Sandbox\BookStoreProject.Aleksandar\BookStore\BookStore.Infrastructure\obj\Release\BookStore.Infrastructure.dll
+C:\Users\aleksandar.datsov\Source\Repos\Git Sandbox\BookStoreProject.Aleksandar\BookStore\BookStore.Infrastructure\obj\Release\BookStore.Infrastructure.pdb

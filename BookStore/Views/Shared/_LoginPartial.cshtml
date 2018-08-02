@@ -1,0 +1,25 @@
+﻿@if (Request.IsAuthenticated)
+{
+    using (Html.BeginForm(MVC.Accounts.Actions.Logout(), FormMethod.Post, new { id = "logoutForm", @class = "navbar-right" }))
+    {
+        @Html.AntiForgeryToken()
+
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="javascript:document.getElementById('logoutForm').submit()">@BookStore.Resources.Languages.Resource.Logout</a></li>
+        </ul>
+    }
+}
+else
+{
+    <ul class="nav navbar-nav navbar-right">
+        @if (Session["Username"] == null)
+        {
+            <li>
+                @Html.ActionLink(BookStore.Resources.Languages.Resource.Register, MVC.Accounts.ActionNames.Register, routeValues: null, htmlAttributes: new { id = "registerLink" })
+            </li>
+            <li>
+                @Html.ActionLink(BookStore.Resources.Languages.Resource.Login, MVC.Accounts.ActionNames.Login, routeValues: null, htmlAttributes: new { id = "loginLink" })
+            </li>
+        }
+    </ul>
+}

@@ -1,0 +1,11 @@
+C:\Users\aleksandar.datsov\source\repos\Git Sandbox\BookStoreProject.Aleksandar\BookStore\BookStore.Database\bin\Debug\BookStore.Database.dacpac
+C:\Users\aleksandar.datsov\source\repos\Git Sandbox\BookStoreProject.Aleksandar\BookStore\BookStore.Database\bin\Debug\BookStore.Database.dll
+C:\Users\aleksandar.datsov\source\repos\Git Sandbox\BookStoreProject.Aleksandar\BookStore\BookStore.Database\bin\Debug\BookStore.Database.pdb
+C:\Users\aleksandar.datsov\source\repos\Git Sandbox\BookStoreProject.Aleksandar\BookStore\BookStore.Database\obj\Debug\BookStore.Database.dll
+C:\Users\aleksandar.datsov\source\repos\Git Sandbox\BookStoreProject.Aleksandar\BookStore\BookStore.Database\obj\Debug\BookStore.Database.pdb
+C:\Users\aleksandar.datsov\Desktop\Folder\BookStore\BookStore.Database\bin\Debug\BookStore.Database.dacpac
+C:\Users\aleksandar.datsov\Desktop\Folder\BookStore\BookStore.Database\bin\Debug\BookStore.Database.dll
+C:\Users\aleksandar.datsov\Desktop\Folder\BookStore\BookStore.Database\bin\Debug\BookStore.Database.pdb
+C:\Users\aleksandar.datsov\Desktop\Folder\BookStore\BookStore.Database\obj\Debug\BookStore.Database.dll
+C:\Users\aleksandar.datsov\Desktop\Folder\BookStore\BookStore.Database\obj\Debug\BookStore.Database.pdb
+C:\Users\aleksandar.datsov\Desktop\Folder\BookStore\BookStore.Database\obj\Debug\BookStore.Database.sqlprojAssemblyReference.cache

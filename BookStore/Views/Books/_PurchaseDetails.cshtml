@@ -1,0 +1,21 @@
+﻿@model BookStore.Models.ViewModels.PurchaseDetails
+
+<table id="home-search-table-id" class="display">
+    <thead>
+        <tr>
+            <th>@BookStore.Resources.Languages.Resource.BookName</th>
+            <th>@BookStore.Resources.Languages.Resource.ReleaseYear</th>
+            <th>@BookStore.Resources.Languages.Resource.IsInStock</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var book in Model.purchasedBooks)
+        {
+            <tr>
+                <td>@book.BookName</td>
+                <td>@book.ReleaseYear</td>
+                <td>@book.IsInStock</td>
+            </tr>
+        }
+    </tbody>
+</table>

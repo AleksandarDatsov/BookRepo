@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    @Styles.Render("~/Content/css", "~/Content/bootstrap.css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @{
+                    var user = String.Empty;
+                    if (Session["Username"] != null)
+                    {
+                        user = ", " + Session["UserName"].ToString();
+                    }
+                    @Html.ActionLink(BookStore.Resources.Languages.Resource.Welcome + user, MVC.Home.Actions.Index(), new { @class = "navbar-brand" })
+                }
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    @if (Session["Username"] != null)
+                    {
+                        <li>@Html.ActionLink(BookStore.Resources.Languages.Resource.Home, MVC.Home.Actions.Index())</li>
+                        <li>@Html.ActionLink(BookStore.Resources.Languages.Resource.AddBook, MVC.Books.Actions.Create())</li>
+                    }
+                    <li>
+                        <div class="dropdown" style=" display: inline-block; position: fixed;  top: 6px;  left: 0; margin: auto;">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-color: #f3f3f3;">
+                                <text style="font-size:17px">
+                                    @BookStore.Resources.Languages.Resource.Language
+                                </text>
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="languageDiv">
+                                <ul>
+                                    <li class="dropdown-item">@Html.ActionLink(BookStore.Resources.Languages.Resource.Bulgarian, "Change", "Language", new { lang = "Bg", @id = "bgLanguage" }, null)</li>
+                                    <li class="dropdown-item">@Html.ActionLink(BookStore.Resources.Languages.Resource.English, "Change", "Language", new { lang = "en", @id = "engLanguage" }, null)</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                @Html.Partial(MVC.Shared.Views._LoginPartial)
+            </div>
+            <ul class="nav navbar-nav navbar-right">
+                @if (Session["Username"] != null)
+                {
+                }
+            </ul>
+        </div>
+    </div>
+    <div class="container body-content">
+        @RenderBody()
+    </div>
+    @Scripts.Render("~/bundles/jquery", "~/bundles/jqueryval", "~/bundles/bootstrap", "~/bundles/jqueryUI")
+    @RenderSection("scripts", required: false)
+</body>
+</html>
